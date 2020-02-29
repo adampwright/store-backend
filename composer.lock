@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf9fb3b9c2c4b0f3814ba0e07017287b",
+    "content-hash": "fa6993cc6849d121e4e13c65a73be310",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -11089,6 +11089,61 @@
                 "framework"
             ],
             "time": "2019-11-26T15:09:40+00:00"
+        },
+        {
+            "name": "magespices/mage2dark",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magespices/mage2dark.git",
+                "reference": "3762faed19193e3a435b173e9a1f1c7373c3e540"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magespices/mage2dark/zipball/3762faed19193e3a435b173e9a1f1c7373c3e540",
+                "reference": "3762faed19193e3a435b173e9a1f1c7373c3e540",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": ">=102.0.0",
+                "magento/module-backend": ">=101.0.0"
+            },
+            "type": "magento2-theme",
+            "autoload": {
+                "files": [
+                    "src/module-magespices-core/registration.php",
+                    "src/module-magespices-mage2dark/registration.php",
+                    "src/theme-adminhtml-mage2dark/registration.php"
+                ],
+                "psr-4": {
+                    "MageSpices\\Core\\": "src/module-magespices-core",
+                    "MageSpices\\Mage2Dark\\": "src/module-magespices-mage2dark"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Przemysław Jankowski",
+                    "email": "przemek@qsolutionsstudio.com"
+                },
+                {
+                    "name": "Jakub Winkler",
+                    "email": "jwinkler@qsolutionsstudio.com"
+                }
+            ],
+            "description": "Magento 2 Admin Dark Theme",
+            "homepage": "https://mage2dark.net/",
+            "keywords": [
+                "admin theme",
+                "core",
+                "dark mode",
+                "magento",
+                "magento2"
+            ],
+            "time": "2020-02-12T08:49:22+00:00"
         },
         {
             "name": "monolog/monolog",
